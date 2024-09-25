@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Nav = styled.nav`
-  padding: 15px 30px;
+  padding: 10px 30px;
   background-color: #c0392b;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 60px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
@@ -13,7 +13,7 @@ const Nav = styled.nav`
   left: 0;
   right: 0;
   margin: 20px auto; /* Para manter a centralização */
-  width: 30%; /* Largura de 30% */
+  width: 18%; /* Largura de 30% */
   transition: background-color 0.3s ease;
 
   @media (max-width: 768px) {
