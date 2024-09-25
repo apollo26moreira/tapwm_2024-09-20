@@ -53,8 +53,8 @@ export default function CadastroCarro({ carregaCarros }) {
   };
 
   return (
-    <div className="card-form">
-      <h3 className="titulo">Cadastro de Carros</h3>
+    <div className="cardCadastro">
+      <h3 className="tituloCadastro">Cadastro de Carros</h3>
       {error && <p className="error-message"></p>}
       <form onSubmit={(e) => { e.preventDefault(); adicionaCarro(); }}>
         <label>Marca:</label>

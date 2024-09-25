@@ -3,21 +3,24 @@ import styled from "styled-components";
 
 const Nav = styled.nav`
   padding: 15px 30px;
-  background-color: #c0392b; /* Cor de fundo vermelho */
+  background-color: #c0392b;
   color: #fff;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
-  margin: 20px auto; /* Centraliza horizontalmente */
-  width: 30%; /* Aumenta a largura para 30% */
+  left: 0;
+  right: 0;
+  margin: 20px auto; /* Para manter a centralização */
+  width: 30%; /* Largura de 30% */
   transition: background-color 0.3s ease;
 
   @media (max-width: 768px) {
-    width: 20%; /* Ajusta a largura para 80% em telas menores */
+    width: 80%; /* Ajusta para 80% em telas menores */
   }
 `;
+
 
 const MenuList = styled.ul`
   list-style: none;
